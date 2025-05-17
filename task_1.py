@@ -89,5 +89,6 @@ for q in queries:
 end_with_cache = time.time()
 
 # Results
-print(f"\nЧас виконання без кешування: {end_no_cache - start_no_cache:.2f} секунд")
-print(f"Час виконання з LRU-кешем: {end_with_cache - start_with_cache:.2f} секунд")
+print(f"\nExecution time without caching: {end_no_cache - start_no_cache:.2f} seconds")
+print(f"Execution time with LRU cache: {end_with_cache - start_with_cache:.2f} seconds")
+
